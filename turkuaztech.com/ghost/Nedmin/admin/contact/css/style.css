@@ -1,0 +1,54 @@
+.url_name_box{
+  width: 75%;
+  height: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  float: left;
+  background-color: #fff;
+  border-radius: 10px;
+  margin-left: 3%;
+  margin-top: 15px;
+}
+.url_name_box i{
+  color: black;
+  font-size: 18px;
+  float: left;
+  word-spacing: 2px;
+  padding: 20px;
+}
+.update_url_input_box{
+  width: 75%;
+  height: auto;
+  float: left;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin-left: 3%;
+  margin-top: 15px;
+}
+.update_url_input_box input{
+  width: 70%;
+  height: auto;
+  float: left;
+  border: none;
+  outline: none;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 8px;
+  font-size: 18px;
+  word-spacing: 2px;
+  padding-left: 1%;
+}
+.update_url_input_box button{
+  width: 70%;
+  height: auto;
+  float: left;
+  border: 1px solid black;
+  outline: none;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 8px;
+  font-size: 18px;
+  word-spacing: 2px;
+  padding-left: 1%;
+  background-color: #fff;
+}

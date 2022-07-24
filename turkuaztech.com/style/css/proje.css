@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.page_header_contact-box{
+  width: 100%;
+  height: auto;
+  float: left;
+
+  background-color: rgb(17, 17, 17);
+}
+.page_header_contact-box i{
+  margin-right: 3%;
+  margin-top: 15px;
+  font-size: 18px;
+  float: right;
+  color: aliceblue;
+}
+.page_header_contact-box p{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  color: aliceblue;
+  float: right;
+  margin-right: 1%;
+}
+.page-area-box{
+    width: 80%;
+    height: 1800px;
+    float: left;
+
+    position: relative;
+    left: 10%;
+}
+.page_header_box_area{
+    width: 100%;
+    height: 120px;
+    float: left;
+
+}
+.page_header_box_area h1{
+    font-family: 'Lato', sans-serif;
+    color: rgb(19, 19, 19);
+    word-spacing: 2px;
+    text-align: center;
+}
+.page_header_box_area h2{
+    font-family: 'Lato', sans-serif;
+    color: rgb(19, 19, 19);
+    word-spacing: 2px;
+    text-align: center;
+    font-weight: normal;
+    font-size: 18px;
+}
+.page_menu_box{
+    width: 100%;
+    height: 70px;
+    float: left;
+
+}
+/* responsive menu yapımı başlangıcı */
+
+.header{
+    height: 70px;
+    padding: 0 20px;
+    color: rgb(255, 255, 255);
+
+  }
+
+
+  .menu{
+    float: right;
+    line-height: 40px;
+  }
+  .menu a{
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 0 10px;
+    transition: 0.6s;
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
+    position: relative;
+    right: 10%;
+    top: 0px;
+    animation-name: menulist;
+    animation-duration: 3s;
+  }
+
+  .show-menu-btn,.hide-menu-btn{
+    transition: 0.4s;
+    font-size: 30px;
+    cursor: pointer;
+    display: none;
+  }
+  .show-menu-btn{
+    float: right;
+  }
+  .show-menu-btn i{
+    line-height: 70px;
+  }
+
+  .show-menu-btn:hover,
+  .hide-menu-btn:hover{
+    color: rgb(255, 255, 255);
+    transition: 0.7s;
+
+  }
+
+  #chk{
+    position: absolute;
+    visibility: hidden;
+    z-index: -1111;
+  }
+
+
+
+  /* resposnive menu yapımı bitişi */
+
+.page_img_box-area{
+    width: 85%;
+    height: 470px;
+    float: left;
+    border:1px solid black;
+    margin-left: 7%;
+    margin-top: 5px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.img-box-text{
+    width: 75%;
+    height: 350px;
+    float: left;
+    background-color: rgba(255, 255, 255, 0.494);
+    margin-top: 60px;
+    margin-left: 12%;
+}
+.img-box-text h3{
+    color: black;
+    font-size: 2em;
+    text-align: center;
+    font-family: 'Noto Sans JP', sans-serif;
+    margin-top: 100px;
+}
+.img-box-text p{
+    color: black;
+    font-size: 18px;
+    text-align: center;
+    font-family: 'Noto Sans JP', sans-serif;
+    margin-top: 35px;
+}
+
+.proje-box-area{
+  width: 75%;
+  height:425px;
+  float: left;
+
+  margin-top: 8px;
+}
+.proje-box-area .proje-box-left{
+  width: 35%;
+  height:425px;
+  float: left;
+
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.proje-box-area .proje-box-right{
+  width: 58%;
+  height: 425px;
+
+  margin-left: 2%;
+  float: left;
+}
+.proje-box-right h6{
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  word-spacing: 2px;
+  float: left;
+  margin-top: 5px;
+  color: #000;
+}
+.proje-box-right .proje-text{
+  font-family: 'Open Sans', sans-serif;
+  float: left;
+  word-spacing: 2px;
+  line-height: 25px;
+  color: #000;
+}
+.proje-box-right .proje-btns button{
+  width: 100%;
+  height: auto;
+  float: left;
+  outline: none;
+  word-spacing: 2px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 18px;
+  margin-top: 50px;
+  color: #000;
+  border:1px solid #000;
+  background-color: #fff;
+}
+  @media screen and (max-width:800px) {
+
+    .proje-box-area{
+      width: 100%!important;
+      height:auto!important;
+
+    }
+    .proje-box-area .proje-box-left{
+      width: 100%!important;
+      height:225px!important;
+
+    }
+    .proje-box-area .proje-box-right{
+      width: 100%!important;
+      height:auto!important;
+  
+      margin-left: 0%!important;
+
+    }
+    .proje-box-right h6{
+
+      font-size: 20px!important;
+
+    }
+
+
+
+  /* responsive menu yapımı başlangıcı */
+    .show-menu-btn,.hide-menu-btn{
+      display: block;
+    }
+    .menu{
+      position: fixed;
+      width: 55%;
+      height: 100vh;
+      background: rgb(237, 237, 237);
+      right: -100%;
+      top: -25px;
+      text-align: center;
+      padding: 80px 0;
+      line-height: normal;
+      transition: 0.7s;
+      z-index: 111;
+    }
+    .menu a{
+      display: block;
+      padding: 20px;
+
+    }
+    .hide-menu-btn{
+      position: absolute;
+      top: 40px;
+      right: 40px;
+    }
+    #chk:checked ~ .menu{
+      right: 0;
+    }
+
+  /* resposnive menu yapımı bitişi */
+
+}

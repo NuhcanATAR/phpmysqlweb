@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap');
+
+body{
+	margin:0px;
+	padding: 0px;
+	background-color: rgb(224, 221, 221);
+}
+.login-box-area{
+	width: 30%;
+	height: 480px;
+	float: left;
+	position: relative;
+	left: 34%;
+	top: 100px;
+	border-top-left-radius: 14px;
+	border-top-right-radius: 14px; 
+	background-color: #fff;
+}
+.login-box-area .login-ico{
+	color: #fff;
+	float: right;
+	border-radius: 50%;
+	width: auto;
+	height: auto;
+	margin-top: 40px;
+	margin-right: -10%;
+	font-size: 2em;
+	background-color: rgb(236, 38, 38);
+	padding:30px;
+	
+}
+.login-box-area h1{
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size:28px;
+	margin-left: -1px;
+	margin-top: -90px;
+	float: left;
+	border-left:4px solid red;
+	padding-left: 8%;
+}
+.login-input-icon i{
+	color: #ccc;
+	font-size: 25px;
+	float: left;
+	margin-left: 3%;
+}
+.login-input-icon input{
+	width: 300px;
+	height: auto;
+	float: left;
+	border-bottom: 1px solid #000;
+	border-left: 0px;
+	border-right: 0px;
+	font-size: 20px;
+	border-top:0px;
+	margin-left: 2%;
+	outline: none;
+	margin-top: -20px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 1%;
+	font-family: 'Roboto Condensed', sans-serif;
+	word-spacing: 2px;
+
+}
+.login-input-icon button{
+	width:315px;
+	height: auto;
+	float: left;
+	border:1px solid black;
+	color: #000;
+	outline: none;
+	background-color: #fff;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	margin-left: 9%;
+}
+.admin-page-left-menu{
+	width: 230px;
+	height: 88vh;
+	float: left;
+	background-color: rgb(35, 39, 55);
+}
+.admin-page-left-menu img{
+	width:80px;
+	height: 80px;
+	border-radius: 50%;
+	float: left;
+	margin-left: 28%;
+	margin-top: 25px;
+	
+}
+.admin-page-left-menu h1{
+	font-family: 'Noto Sans JP', sans-serif;
+	font-size: 17px;
+	word-spacing: 2px;
+	float: left;
+	margin-left: 35%;
+	color: rgb(255, 255, 255);
+}
+.admin-page-left-menu i{
+	color: rgb(255, 255, 255);
+	font-size: 17px;
+	float: left;
+	margin-left: 5%;
+	margin-right: 2%;
+}
+.admin-page-left-menu p{
+	float: left;
+	color: rgb(255, 255, 255);
+	word-spacing: 2px;
+	font-size: 17px;
+	font-family: 'Noto Sans JP', sans-serif;
+	margin-left: 2%;
+	margin-top: -4px;
+}
+.admin-page-right-menu{
+	width: 100%;
+	height: 80px;
+	float: left;
+	background-color: rgb(35, 39, 55);
+}
+.exit-box-icon i{
+	font-size: 18px;
+	color: #fff;
+	float: right;
+	background-color: rgb(232, 35, 35);
+	padding: 30px;
+	border-bottom-left-radius: 50%;
+}
+
+.admin_page_status-box{ 
+	width:25%;
+	height: 180px;
+	float: left;
+	margin-left: 2%;
+	margin-top: 15px;
+	background-color: #fff;
+	border:1px solid rgb(43, 41, 41);
+	border-bottom-left-radius: 15px;
+	border-top-right-radius: 15px;
+}
+.admin_page_status-box i{
+	font-size: 3em;
+	color: #000;
+	float: left;
+	margin-left: 10%;
+	margin-top: 57px;
+}
+.admin_page_status-box h2{
+	color: #000;
+	float: left;
+	margin-left: 12%;
+	font-family: 'Noto Sans JP', sans-serif;
+	margin-top: 57px;
+}
